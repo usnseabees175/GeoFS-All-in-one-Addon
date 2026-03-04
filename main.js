@@ -260,17 +260,7 @@ function menus() {
             -Engines `,
 
 
-            'Flight path vector': `Shows approximately where your flight path intersects the ground. Hidden by pressing [Insert]`,
-
-
             'Fuel': `Simulates fuel consumption by calculating burn rate from throttle setting and fuel capacity from aircraft mass. To refuel, you must be on the ground, stationary, and have engines off`,
-
-
-            'GPWS': `Adds GPWS callouts (airliners)
-            For the minimums to work, you need to type in the BAROMETRIC (MSL) minimum altitude/desision height (without the-½) as defined at the bottom of the IFR approach plate.
-            For the Glideslope alarm to work, you must be tuned into an ILS.
-            For some of the callouts to work, you must be descending.
-            `,
 
 
             'Information display': `Displays Indicated Airspeed, Mach, Ground Speed, Altitude, Above Ground Level, Heading, Vertical Speed, Throttle %, AOA, Glideslope angle (must be tuned into ILS), G-force, and status of overpowered engines, camera cycling, and fuel`,
@@ -2315,7 +2305,6 @@ out skel qt;
     volume();
     fpv();
     failuresAndFuel();
-    gpws();
     stats();
     opengines();
     pushback();
